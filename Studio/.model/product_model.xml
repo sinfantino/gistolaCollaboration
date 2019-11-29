@@ -7,6 +7,7 @@
     debugGuiOnPreview="true" debugGuiFramed="true" debugLevelPreview="DEBUG">
   <facets xsi:type="appl:TemplateInsertFacet" uuid="_GIFTUKTqEea8d6P1JTl01w"
       id="COMPONENTS"/>
+  <components href="components/_TY21EBKOEeqDbZ_63Rp3Mw.xml#_TY21EBKOEeqDbZ_63Rp3Mw"/>
   <world href="world.xml#_8fNuADTNEeSDp-UE12WecQ"/>
   <domains uuid="_2ZqEUEluEeSo87hK2eA7dQ" name="features">
     <typeSet uuid="_GIF6YqTqEea8d6P1JTl01w" bitSet="458767"/>
