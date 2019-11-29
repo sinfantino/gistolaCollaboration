@@ -178,6 +178,10 @@
     <inTypeSet uuid="_GIHvnqTqEea8d6P1JTl01w" bitSet="458767"/>
     <outTypeSet uuid="_GIHvn6TqEea8d6P1JTl01w" bitSet="458767"/>
   </tables>
+  <tables uuid="_hSK-MBKiEeqe4YpdCop1wA" name="Extra_Data_Table">
+    <inTypeSet uuid="_hSK-MxKiEeqe4YpdCop1wA" bitSet="458767"/>
+    <outTypeSet uuid="_hSK-NBKiEeqe4YpdCop1wA" bitSet="458767"/>
+  </tables>
   <modeldescription uuid="_GIIWoKTqEea8d6P1JTl01w" pmid="BuildModel">
     <version uuid="_GIJkwKTqEea8d6P1JTl01w" major="1"/>
   </modeldescription>
