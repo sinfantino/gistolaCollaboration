@@ -2,6 +2,10 @@
 <comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
     uuid="_eJjXgBKOEeqDbZ_63Rp3Mw" name="A_">
+  <calculation uuid="_dehi4BKhEeqe4YpdCop1wA" name="Calculation_Rules"
+      visibility="800">
+    <text>var a=1;</text>
+  </calculation>
   <geometry uuid="_eJjXgxKOEeqDbZ_63Rp3Mw" deletable="false"
       name="root">
     <parentPlugs uuid="_eJjXhBKOEeqDbZ_63Rp3Mw" name="ParentPlug"/>
