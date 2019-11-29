@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_8fNuADTNEeSDp-UE12WecQ" deletable="false"
+    name="world" initialViewPoint="_x_QZwElnEeSga5qFy3girQ">
+  <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
+      customType="insertfree">
+    <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local"
+        visibility="300">
+      <typeSet uuid="_GINPIKTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_7GD-AFc5EeWo-40Qyxiobw" name="link_owner_component"
+          visibility="300">
+        <displayName uuid="_M6BKBfIjEeirbZ0W15jFTQ"/>
+      </values>
+    </domain>
+  </role>
+  <abstractViewPoints xsi:type="comp:ViewpointTwoD"
+      uuid="_x_QZwElnEeSga5qFy3girQ" name="ViewPoint_initial"
+      fieldOfView="784">
+    <position xsi:type="appl:CoordinateTwoD" uuid="_Vh6Xpk62Eei0NfpTrkQidw"
+        x="200.0" z="200.0"/>
+  </abstractViewPoints>
+  <abstractViewPoints xsi:type="comp:ViewpointTwoDDynamic"
+      uuid="_AAYTYE63Eei0NfpTrkQidw" name="partlyContained_anchorFit"
+      condition="PARTLY_CONTAINED"/>
+  <abstractViewPoints xsi:type="comp:ViewpointTwoDDynamic"
+      uuid="_WCrF4E63Eei0NfpTrkQidw" name="notContained_centerPan"
+      condition="NOT_CONTAINED" behavior="CENTER_PAN"/>
+  <abstractViewPoints xsi:type="comp:ViewpointTwoDDynamic"
+      uuid="_vc9H4E63Eei0NfpTrkQidw" name="anyContainment_CenterFit"
+      behavior="CENTER_FIT"/>
+  <abstractViewPoints xsi:type="comp:ViewpointTwoDDynamic"
+      uuid="_iiGlkE64Eei0NfpTrkQidw" name="anyContainment_centerZoom"
+      behavior="CENTER_ZOOM"/>
+</comp:World>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_q8cPEFc5EeWo-40Qyxiobw" name="link_component"
+    componentClass="LINK">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_YHRbsFdAEeWo-40Qyxiobw"
+      name="height" visibility="800" initValue="50">
+    <domain uuid="_YHRbsVdAEeWo-40Qyxiobw" name="local"
+        visibility="300">
+      <typeSet uuid="_GC9ixKTqEea8d6P1JTl01w" bitSet="10"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_WrLRIFdAEeWo-40Qyxiobw"
+      name="width" visibility="800" initValue="50">
+    <domain uuid="_WrLRIVdAEeWo-40Qyxiobw" name="local"
+        visibility="300">
+      <typeSet uuid="_GC-J0qTqEea8d6P1JTl01w" bitSet="10"/>
+    </domain>
+  </variables>
+  <cursorTwoD uuid="_5hDdIFc7EeWo-40Qyxiobw" name="Cursor3"
+      twoDElementsColor="_c3-j4Fc7EeWo-40Qyxiobw _f9pUUFc7EeWo-40Qyxiobw">
+    <facets xsi:type="comp:CursorTwoDViewpointFacet"
+        uuid="_JSNrIE63Eei0NfpTrkQidw">
+      <selectedViewpoint xsi:type="comp:ViewpointTwoDDynamic"
+          href="../world.xml#_AAYTYE63Eei0NfpTrkQidw"/>
+    </facets>
+    <onColor href="../product_model.xml#N65557"/>
+  </cursorTwoD>
+  <geometry uuid="_q8cPEVc5EeWo-40Qyxiobw" deletable="false"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDBox" uuid="_c3-j4Fc7EeWo-40Qyxiobw"
+        name="Box3" height="50.0" width="50.0" cursorsUsingMeForColor="_5hDdIFc7EeWo-40Qyxiobw"
+        strokeWidth="2">
+      <facets xsi:type="comp:TwoDDynamicSizeFacet" uuid="_GDAmEKTqEea8d6P1JTl01w"
+          heightDynamic="height" widthDynamic="width"/>
+      <translation uuid="_VhwmoU62Eei0NfpTrkQidw"/>
+      <bgColor href="../product_model.xml#N65567"/>
+      <color href="../product_model.xml#N65572"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDText" uuid="_f9pUUFc7EeWo-40Qyxiobw"
+        name="Text3" cursorsUsingMeForColor="_5hDdIFc7EeWo-40Qyxiobw"
+        text="Link" fontSize="16">
+      <translation uuid="_VhwmpU62Eei0NfpTrkQidw" x="8.0"
+          z="24.0"/>
+      <color href="../product_model.xml#N65572"/>
+      <bgColor href="../product_model.xml#N65562"/>
+    </twoDElement>
+    <units uuid="_fdGZwFdAEeWo-40Qyxiobw" name="move_next">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_GDCbQKTqEea8d6P1JTl01w" variable="width">
+        <vector xsi:type="appl:Coordinate3D" uuid="_Vhwmqk62Eei0NfpTrkQidw"
+            x="1.0"/>
+      </facets>
+    </units>
+    <units uuid="_dbbngFdBEeWo-40Qyxiobw" name="move_subs">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_GDDCUaTqEea8d6P1JTl01w" variable="height">
+        <vector xsi:type="appl:Coordinate3D" uuid="_VhwmrU62Eei0NfpTrkQidw"
+            z="1.0"/>
+      </facets>
+    </units>
+    <parentPlugs uuid="_q8cPElc5EeWo-40Qyxiobw" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_wbLvsFc5EeWo-40Qyxiobw" name="nextLink"
+      initValue="NONE" public="false" type="LINKINSUBLINK"
+      components="link_component, NONE, " lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_GDDCV6TqEea8d6P1JTl01w"
+        geoUnit="_fdGZwFdAEeWo-40Qyxiobw" position="(10,0,0)"
+        type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_GDDpYKTqEea8d6P1JTl01w"/>
+    <domain uuid="_wbLvsVc5EeWo-40Qyxiobw" name="local"
+        visibility="300">
+      <typeSet uuid="_GDDpY6TqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_xx8HQFc5EeWo-40Qyxiobw" name="link_component"
+          visibility="300">
+        <displayName uuid="_M5rLxvIjEeirbZ0W15jFTQ"/>
+      </values>
+      <values uuid="N65792" name="NONE" visibility="300">
+        <displayName uuid="_M5rLyPIjEeirbZ0W15jFTQ"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_D8hWcFc8EeWo-40Qyxiobw" name="subs"
+      initValue="NONE" components="sub_component, NONE, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_GDEQdqTqEea8d6P1JTl01w"
+        geoUnit="_dbbngFdBEeWo-40Qyxiobw" position="(0,0,10)"/>
+    <domain uuid="_D8hWcVc8EeWo-40Qyxiobw" name="local"
+        visibility="300">
+      <typeSet uuid="_GDEQeaTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_E2bZ8Fc8EeWo-40Qyxiobw" name="sub_component"
+          visibility="300">
+        <displayName uuid="_M5rLzvIjEeirbZ0W15jFTQ"/>
+      </values>
+      <values uuid="N65819" name="NONE" visibility="300">
+        <displayName uuid="_M5rL0PIjEeirbZ0W15jFTQ"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_M5rL0fIjEeirbZ0W15jFTQ" value="Link Component"/>
+</comp:Component>
