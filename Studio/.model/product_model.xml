@@ -183,6 +183,13 @@
     <inTypeSet uuid="_hSK-MxKiEeqe4YpdCop1wA" bitSet="458767"/>
     <outTypeSet uuid="_hSK-NBKiEeqe4YpdCop1wA" bitSet="458767"/>
   </tables>
+  <global2DVisuals uuid="_YlrdQBKkEeqe4YpdCop1wA" name="Global_Visual">
+    <twoDElement xsi:type="comp:TwoDSVGImportFile" uuid="_alxswBKkEeqe4YpdCop1wA"
+        name="Interactive_SVG" checksum="6df1239c31663f629047871594dc5b49a396ce99">
+      <translation uuid="_alxswRKkEeqe4YpdCop1wA"/>
+      <file href="../model.build#_P41B4BKkEeqe4YpdCop1wA"/>
+    </twoDElement>
+  </global2DVisuals>
   <modeldescription uuid="_GIIWoKTqEea8d6P1JTl01w" pmid="BuildModel">
     <version uuid="_GIJkwKTqEea8d6P1JTl01w" major="1"/>
   </modeldescription>
