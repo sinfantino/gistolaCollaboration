@@ -36,8 +36,8 @@ component_number_string = &quot;Number: &quot; + my_number;</text>
       <selectedViewpoint xsi:type="comp:ViewpointTwoDDynamic"
           href="../world.xml#_WCrF4E63Eei0NfpTrkQidw"/>
     </facets>
-    <onColor href="../product_model.xml#N65557"/>
     <onColorBg href="../product_model.xml#N65562"/>
+    <onColor href="../product_model.xml#N65557"/>
   </cursorTwoD>
   <geometry uuid="_KH3RkXABEeSk24oMIozLgA" deletable="false"
       name="root">
