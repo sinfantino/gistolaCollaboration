@@ -83,6 +83,8 @@
       name="trash_down.png" relativePath="DefaultUI/Buttons/trash_down.png"/>
   <externalResources uuid="_P41B4BKkEeqe4YpdCop1wA"
       name="test.svg" relativePath="SVG/test.svg"/>
+  <externalResources uuid="_OFy2oBKnEeqe4YpdCop1wA"
+      name="f.vtz" relativePath="VT/f.vtz"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>
