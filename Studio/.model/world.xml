@@ -10,10 +10,6 @@
     <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local"
         visibility="300">
       <typeSet uuid="_GINPIKTqEea8d6P1JTl01w" bitSet="65536"/>
-      <values uuid="_7GD-AFc5EeWo-40Qyxiobw" name="link_owner_component"
-          visibility="300">
-        <displayName uuid="_M6BKBfIjEeirbZ0W15jFTQ"/>
-      </values>
     </domain>
   </role>
   <abstractViewPoints xsi:type="comp:ViewpointTwoD"
